@@ -1,9 +1,9 @@
 --Users , Roles and Logins
-RUn this script to list users in each database along with the roles assigned to each user as well as the logins mapped 
-to each user and the status of that login.
-The Database Role column returns NULL when the user has no role assigned and the Instance Login column returns NULL 
-if the user is an orphaned user.
-============================================
+--RUn this script to list users in each database along with the roles assigned to each user as well as the logins mapped 
+--to each user and the status of that login.
+--The Database Role column returns NULL when the user has no role assigned and the Instance Login column returns NULL 
+--if the user is an orphaned user.
+
 -- To get database users and their roles for each user database --
 -- lines added to include ALL users even those without roles --
 -- lines added to add instance login names and status --
